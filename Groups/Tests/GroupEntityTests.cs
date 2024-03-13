@@ -4,18 +4,20 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace Groups.Tests;
 
 [TestClass]
-public class StudentEntityTests
+public class GroupEntityTests
 {
     [TestMethod]
-    public void StudentEntity_Initialization_ShouldSucceed()
+    public void GroupEntity_Initialization_ShouldSucceed()
     {
         // Arrange
-        var student = new StudentEntity(1, "Alice Smith", "alice@example.com");
+        var group = new GroupEntity(1, "Group 1", 2022);
 
         // Assert
-        Assert.IsNotNull(student);
-        Assert.AreEqual(1, student.Id);
-        Assert.AreEqual("alice@example.com", student.Email);
-        Assert.AreEqual("Alice Smith", student.Name);
+        Assert.IsNotNull(group);
+        Assert.AreEqual(1, group.Id);
+        Assert.AreEqual("Group 1", group.Name);
+        Assert.AreEqual(2022, group.CreatedYear);
+        Assert.IsNotNull(group.Students);
+        Assert.IsInstanceOfType(group.Students, typeof(List<StudentEntity>));
     }
 }

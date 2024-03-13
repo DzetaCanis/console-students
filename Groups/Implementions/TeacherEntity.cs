@@ -2,7 +2,7 @@ using Groups.Implementions;
 
 namespace Students.Implementations;
 
-public class TeacherEntity : PersonEntity
+public class TeacherEntity
 {
    
 }

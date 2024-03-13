@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Groups")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3beb05e84f1aa45987849c00a3cd2ff6442aa11e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Groups")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Groups")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -32,3 +32,4 @@
 /Users/vanyachernov/Desktop/All/Проекты/Console/Groups/Groups/obj/Debug/net8.0/Groups.pdb
 /Users/vanyachernov/Desktop/All/Проекты/Console/Groups/Groups/obj/Debug/net8.0/Groups.genruntimeconfig.cache
 /Users/vanyachernov/Desktop/All/Проекты/Console/Groups/Groups/obj/Debug/net8.0/ref/Groups.dll
+/Users/vanyachernov/Desktop/All/Проекты/Console/Groups/Groups/obj/Debug/net8.0/Groups.sourcelink.json
